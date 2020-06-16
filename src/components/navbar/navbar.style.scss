@@ -1,0 +1,22 @@
+.navbar {
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav {
+        justify-self: flex-end;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            padding: 0.5rem;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
