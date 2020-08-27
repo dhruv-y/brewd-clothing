@@ -2,10 +2,10 @@ import React from 'react';
 import './navbar.style.scss'
 
 const Navbar = () => (
-    <nav class="navbar">
-        <div class="container">
-            <h1 class="logo">BREWD</h1>
-            <ul class="nav">
+    <nav className="navbar">
+        <div className="container">
+            <h1 className="logo">BREWD</h1>
+            <ul className="nav">
                 <a href="#home">HOME</a>
                 <a href="#about">ABOUT</a>
             </ul>
