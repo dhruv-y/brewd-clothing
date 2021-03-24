@@ -7,7 +7,7 @@ const Navbar = () => (
             <h1 className="logo">BREWD</h1>
             <ul className="nav">
                 <a href="#home">HOME</a>
-                <a href="#about">ABOUT</a>
+                <a href="#shop">SHOP</a>
             </ul>
         </div >
     </nav >
