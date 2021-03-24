@@ -1,16 +1,22 @@
 import React from 'react';
 import './navbar.style.scss'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => (
-    <nav className="navbar">
-        <div className="container">
-            <h1 className="logo">BREWD</h1>
-            <ul className="nav">
-                <a href="#home">HOME</a>
-                <a href="#shop">SHOP</a>
-            </ul>
-        </div >
-    </nav >
+    <div className='header'>
+        <Link className='logo-container' to='/'>
+            Brewd
+        </Link>
+
+        <div className='options'>
+            <Link className='option' to='/shop'>
+                SHOP
+            </Link>
+            <Link className='option' to='/shop'>
+                CONTACT
+            </Link>
+        </div>
+    </div>
 );
 
 export default Navbar;
