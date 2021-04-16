@@ -12,8 +12,8 @@ const Navbar = () => (
             <Link className='option' to='/shop'>
                 SHOP
             </Link>
-            <Link className='option' to='/shop'>
-                CONTACT
+            <Link className='option' to='/signin'>
+                LOGIN
             </Link>
         </div>
     </div>
